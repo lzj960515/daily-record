@@ -1,0 +1,8 @@
+server:
+  tomcat:
+    connection-timeout: PT5s
+
+spring:
+  mvc:
+    async:
+      request-timeout: 2000
